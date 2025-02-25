@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&family=Tektur:wght@400..900&display=swap');
+* {
+    color: white;
+    background-color: black;  
+    font-family: 'Tektur'; 
+}
+header nav {
+    height: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+header nav img {
+    width: 130px;
+}
+header .container {
+    height: 150px;
+}
+.main__content-info {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.text-contents {
+    padding-left: 40px;
+}
+.main__content h1{
+    font-size: 40px;
+    text-align: center;
+}
+.text-contents p {
+    font-size: 25px;
+}
+.text-contents h3 {
+    font-size: 30px;
+}
+.text-contents img {
+    height: 35px;
+    width: 45px;
+}
+.text-contents img:hover {
+    transform: rotate(180deg);
+    transition-duration: 1s;
+}
+.text-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.main .container {
+    justify-content: center;
+}
+header {
+    border-bottom: 2px purple solid;
+}
+.main__price {
+    text-align: center;
+    margin-top: 50px;
+}
+.main__content {
+    border-bottom: 2px solid purple;
+    padding-top: 30px;
+}
+.text-contents {
+    padding-bottom: 100px;
+}
+.main__price {
+    border-bottom: 2px purple solid;
+    padding-bottom: 20px;
+}
+.main__product-instrument-img {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+.main__product h2{
+    text-align: center;
+}
+.main__product-instrument-info {
+    display: flex;
+    font-size: 30px;
+    gap: 260px;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.main__product-instrument-info p{
+    color: purple;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container-fluid a{
+    color: white;
+    font-size: 30px;
+}
+.navbar-nav {
+    gap: 40px;
+    justify-content: right;
+}
+.container-fluid {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    padding-top: 20px;
+}
+.product-info {
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
+.main__price img{
+    padding-top: 30px;
+}
+.main__product {
+    padding-top: 40px;
+}
+.main__product-instrument {
+    padding-top: 30px;
+}
+.footer__second {
+    height: 100px;
+    border-top: 2px purple solid;
+}
+.footer__first {
+    height: 100px;
+    border-top: 2px purple solid;
+}
+.connection {
+    display: flex;
+    justify-content: center;
+}
+.connection-phone {
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+.connection-networks {
+    padding-top: 20px;
+    padding-left: 800px;
+}
+.connection-phone a {
+    text-decoration: none;
+    color: white;
+}
+.main__review h1 {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: auto;
+}
+.main__review img {
+    width: 50px;
+    height: 50px;
+}
+.main__review-first {
+    margin-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.main__reviews {
+    justify-content: center;
+    text-align: center;
+}
+.main__review-second {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.main__review-third {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.main__review-fourth {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.main__review-fifth {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.main__review-sixth {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.containers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.main__left-img img {
+    width: 500px;
+}
+.main__right-img img {
+    width: 500px;
+}
+.main__review-seventh {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.main__review-eight {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.main__comment-info {
+    justify-content: center;
+    text-align: center;
+}
+.main__comment-anket {
+    justify-content: center;
+    padding-left: 550px;
+    width: 2000px;
+}
+.col-13 button {
+    color: white;
+    background-color: purple;
+    border: white;
+}
+.col-13 button:hover {
+    color: black;
+    background-color: white;
+    border: black;
+}
+.input-group {
+    margin-left: -25px;
+    padding-top: 30px;
+}
+.input-group-text {
+    width: 140px;
+    background-color: black;
+    color: white;
+}
+.col-md-5 {
+    padding-top: 10px;
+}
+.col-12 {
+    padding-top: 10px;
+}
+.col-13 {
+    padding-top: 20px;
+}
+.main__reviews {
+    border-bottom: purple 2px solid;
+}
+.main__comment {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.footer__third {
+    height: 100px;
+    border-top: 2px purple solid;
+}
+.connection-networks__main {
+    padding-left: 30px;
+}
+.main__contact-text a{ 
+    text-decoration: none;
+    color: white;
+}
+.main__contacts h1{
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.main__contact-text {
+    padding-left: 30px;
+    font-size: 30px;
+}
+.main__contact {
+    display: flex;
+    padding-top: 70px;
+}
+.main__contacts {
+    padding: 30px;
+}
+.main__contact-text-first {
+    padding-bottom: 40px;
+}
+.main__contact-text-second {
+    padding-bottom: 40px;
+}
+.main__contact-text-third {
+    padding-bottom: 40px;
+}
+.main__contact-text-fourth {
+    padding-bottom: 40px;
+}
+.connection-networks__main {
+    padding-bottom: 150px;
+}
+.main__left-img img {
+    width: 1200px;
+    height: 1200px;
+}
+.main__right-img img {
+    width: 1200px;
+    height: 1200px;
+}
+.main__review-ninth {
+    padding-top: 30px;
+    display: flex;
+    padding-right: 400px;
+    justify-content: center;
+}
+.main__contact {
+    justify-content: center;
+}
+.container {
+    max-width: 1200px;
+}
+.main__review h1 {
+    padding-top: 30px;
+}
+@media screen and (max-width: 1200px) {
+ .connection-phone {
+        justify-content: left;
+    }
+ .connection-networks {
+    padding-left: 700px;
+ }
+ .main__price img {
+    width: 1100px;
+    justify-content: center;
+ }
+ .img-content {
+    padding-top: 80px;
+ }
+ .text-contents {
+    padding-top: 20px;
+ }
+}
+@media screen and (max-width: 768px) {
+    .connection-phone {
+        justify-content: left;
+    }
+    .connection-networks {
+        padding-left: 200px;
+}
+.main__price img {
+    width: 700px;
+    justify-content: center;
+    padding-right: 20px;
+}
+.main__product-instrument-img {
+    gap: 50px;
+}
+header {
+    height: 300px;
+}
+header nav {
+    display: flex;
+}
+.img-content {
+    display: none;
+
+}
+.main__product-instrument-img img{
+    width: 220px;
+}
+.main__product-instrument-info {
+    gap: 150px;
+}
+.main__left-img  {
+    display: none;
+}
+.main__right-img  {
+    display: none;
+}
+.main__comment-anket form {
+    justify-content: left;
+    margin-left: -400px;
+}
+.main__contact-img img {
+    width: 400px;
+}
+.main__contact-text {
+    font-size: 20px;
+    padding-right: 10px;
+}
+.main__contact-img {
+    display: none;
+}
+header nav img {
+    width: 300px;
+    padding-right: 150px;
+}
+}
+@media screen and (max-width: 576px) {
+    header nav img {
+        width: 300px;
+        padding-right: 100px;
+    }
+    .main__product-instrument-img img{
+        width: 170px;
+    }
+    .main__product-instrument-img {
+        gap: 20px;
+    }
+    .main__product-instrument-info {
+        gap: 90px;
+}
+.connection-networks {
+    padding-left: 120px;
+ }
+ .main__price img {
+    width: 550px;
+    justify-content: center;
+    padding-right: 20px;
+}
+.product-info {
+    gap: 20px;
+}
+.main__comment-anket form {
+    width: 300px;
+}
+.main__left-img  {
+    display: none;
+}
+.main__right-img  {
+    display: none;
+}
+}
+@media screen and (max-width: 378px) {
+    .navbar-nav a{
+        font-size: 22px;
+    }
+    .text-contents p{
+        font-size: 13px;
+    }
+    header nav img {
+        width: 200px;
+        padding-left: -80px;
+    }
+    header {
+        height: 270px;
+    }
+    .nav-item{
+        font-size: 15px;
+    }
+    .main__product-instrument-img img{
+        width: 110px;
+    } 
+    .main__product-instrument-info {
+        gap: 60px;
+        font-size: 20px;
+}
+.product-info {
+    gap: 10px;
+    font-size: 10px;
+}
+.connection-networks {
+    padding-left: 90px;
+ }
+ .connection-networks img{
+    width: 25px;
+ }
+ .connection-phone {
+    justify-content: left;
+    font-size: 15px;
+}
+.main__price img {
+    width: 370px;
+    justify-content: center;
+    padding-right: 20px;
+}
+.text-contents {
+    font-size: 10px;
+}
+.text-contents h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.main__review-second {
+    font-size: 2px;
+}
+.main__left-img  {
+    display: none;
+}
+.main__right-img  {
+    display: none;
+}
+.main__comment-anket form {
+    justify-content: center;
+    padding-right: 100px;
+}
+.main__review {
+    font-size: 13px;
+}
+.main__comment-anket {
+    padding-left: -10px;
+}
+}
